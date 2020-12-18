@@ -14,7 +14,7 @@ public class RegistrationTest {
     @BeforeMethod
     public void setUp(){
         wd = new ChromeDriver();
-        wd.get("https://google.com");
+        wd.get("https://ilcarro-dev-v1.firebaseapp.com/");
     }
 
     @Test
