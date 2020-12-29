@@ -1,4 +1,4 @@
-package com.examle.ilcarro.qa;
+package com.examle.ilcarro.qa.tests;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

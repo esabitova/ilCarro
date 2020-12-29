@@ -1,4 +1,4 @@
-package com.examle.ilcarro.qa;
+package com.examle.ilcarro.qa.application;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package com.examle.ilcarro.qa;
+package com.examle.ilcarro.qa.tests;
 
 
 import org.testng.Assert;
@@ -42,6 +42,7 @@ public class RegistrationTest extends TestBase{
         app.getUserHelper().pause(3000);
 
         Assert.assertTrue(app.getUserHelper().isRegistrationFormPresent());
+
     }
 
 }
