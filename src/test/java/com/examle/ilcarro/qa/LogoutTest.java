@@ -6,13 +6,13 @@ import org.testng.annotations.Test;
 public class LogoutTest extends TestBase{
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
-        if(!isUserLoggedIn()){
-           logIn();
+        if(!app.getUserHelper().isUserLoggedIn()){
+           app.getUserHelper().logIn();
         }
     }
     @Test
     public void logoutTest() {
-        clickLogoutButtonOnHeader();
+        app.getUserHelper().clickLogoutButtonOnHeader();
 
 
     }
