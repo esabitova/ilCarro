@@ -11,9 +11,12 @@ public class HelperBase {
     }
 
     public void typeByCss(String cssSelector, String text) {
-        clickByCss(cssSelector);
-        wd.findElement(By.cssSelector(cssSelector)).clear();
-        wd.findElement(By.cssSelector(cssSelector)).sendKeys(text);
+        if(text!=null){
+            clickByCss(cssSelector);
+            wd.findElement(By.cssSelector(cssSelector)).clear();
+            wd.findElement(By.cssSelector(cssSelector)).sendKeys(text);
+        }
+
     }
 
     public void clickByCss(String cssSelector) {
@@ -29,9 +32,11 @@ public class HelperBase {
     }
 
     public void type(By locator, String text) {
-        click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
+        if(text!=null) {
+            click(locator);
+            wd.findElement(locator).clear();
+            wd.findElement(locator).sendKeys(text);
+        }
     }
 
     public boolean isElementPresent(By locator) {
