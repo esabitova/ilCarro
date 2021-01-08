@@ -17,6 +17,6 @@ public class CarHelper extends HelperBase{
     }
 
     public void fillCarForm(String location){
-        type(By.cssSelector(""), location);
+        type(By.name("country"), location);
     }
 }
