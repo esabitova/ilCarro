@@ -50,7 +50,7 @@ public class UserHelper extends  HelperBase{
 
 
     public void fillLoginForm(User user) {
-        typeByCss("[name=email]", user.getEmail());
+        typeByCss("[name=emai]", user.getEmail());
         typeByCss("[name=password]", user.getPassword());
     }
 
