@@ -51,9 +51,6 @@ public static class MyListener extends AbstractWebDriverEventListener{
         }
     }
 
-
-
-
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
