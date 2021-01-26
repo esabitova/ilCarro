@@ -54,6 +54,11 @@ public class UserHelper extends  HelperBase{
         typeByCss("[name=password]", user.getPassword());
     }
 
+    public void fillLoginForm(String email, String password) {
+        typeByCss("[name=email]", email);
+        typeByCss("[name=password]", password);
+    }
+
 
 
     public void clickLogoutButtonOnHeader() {
