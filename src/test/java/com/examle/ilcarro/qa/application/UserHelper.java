@@ -9,12 +9,12 @@ public class UserHelper extends  HelperBase{
         super(wd);
     }
 
-    public void logIn() throws InterruptedException {
+    public void logIn(String email, String password) throws InterruptedException {
         clickByCss("[href='/login']");
         // click(By.cssSelector("[href='/login']"));
         fillLoginForm(new User()
-                .withEmail("my.email1608881337043@gmail.com")
-                .withPassword("Aa1234567"));
+                .withEmail(email)
+                .withPassword(password));
         pause(2000);
         clickByCss("[type=submit]");
     }
@@ -64,4 +64,7 @@ public class UserHelper extends  HelperBase{
         return isElementPresent(By.xpath("//a[contains(., 'logOut')]"));
     }
 
+    public void logout() {
+        clickLogoutButtonOnHeader();
+    }
 }
