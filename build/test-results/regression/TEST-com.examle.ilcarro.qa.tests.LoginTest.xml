@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.examle.ilcarro.qa.tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-02T19:04:10" hostname="DESKTOP-S1IE1UQ" time="4.847">
+  <properties/>
+  <testcase name="testLoginSanity" classname="com.examle.ilcarro.qa.tests.LoginTest" time="4.847"/>
+  <system-out><![CDATA[21:04:00 INFO  - Start test testLoginSanity
+Start search By.xpath: //a[contains(., 'logOut')]
+By.xpath: //a[contains(., 'logOut')] found
+21:04:10 INFO  - 
+user name is my.email1608881337043@gmail.com 
+ user password is Aa1234567
+Start search By.cssSelector: [href='/login']
+By.cssSelector: [href='/login'] found
+Start search By.cssSelector: [name=email]
+By.cssSelector: [name=email] found
+Start search By.cssSelector: [name=email]
+By.cssSelector: [name=email] found
+Start search By.cssSelector: [name=email]
+By.cssSelector: [name=email] found
+Start search By.cssSelector: [name=password]
+By.cssSelector: [name=password] found
+Start search By.cssSelector: [name=password]
+By.cssSelector: [name=password] found
+Start search By.cssSelector: [name=password]
+By.cssSelector: [name=password] found
+Start search By.cssSelector: [type='submit']
+By.cssSelector: [type='submit'] found
+Start search By.xpath: //a[contains(., 'logOut')]
+By.xpath: //a[contains(., 'logOut')] found
+21:04:14 INFO  - Test Passed
+21:04:15 INFO  - Created screenshot src/test/screenshots/screenshot-1612292654879.png
+21:04:15 INFO  - Stop test testLoginSanity
+************************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

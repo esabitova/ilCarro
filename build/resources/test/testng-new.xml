@@ -3,7 +3,9 @@
 <suite name="Regression" verbose="1" >
        <test name="Regression">
         <classes>
+            <class name="com.examle.ilcarro.qa.tests.RegistrationTest"/>
             <class name="com.examle.ilcarro.qa.tests.LoginTest"/>
+            <class name="com.examle.ilcarro.qa.tests.CarCreationTests"/>
             <class name="com.examle.ilcarro.qa.tests.LogoutTest"/>
 
         </classes>

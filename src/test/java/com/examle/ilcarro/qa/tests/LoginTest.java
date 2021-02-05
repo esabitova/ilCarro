@@ -39,7 +39,7 @@ public class LoginTest extends TestBase {
      return list.iterator();
     }
 
-    @Test(dataProvider = "validLoginFromCsv")
+    @Test(enabled = false, dataProvider = "validLoginFromCsv")
     public void testLoginDataProviderCsv(User user) throws InterruptedException {
         logger.info("\nuser name is " + user.getEmail() + "\n user password is " + user.getPassword());
         app.getUserHelper().clickLogInButton();
@@ -59,7 +59,7 @@ public class LoginTest extends TestBase {
     }
 
 
-    @Test(dataProvider = "validLogin")
+    @Test(enabled = false, dataProvider = "validLogin")
     public void testLoginDataProvider(String email, String password) throws InterruptedException {
         logger.info("\nuser name is" + email + "\nuser password is " + password);
         app.getUserHelper().clickLogInButton();

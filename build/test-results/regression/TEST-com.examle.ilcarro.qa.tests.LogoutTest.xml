@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.examle.ilcarro.qa.tests.LogoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-02T19:04:15" hostname="DESKTOP-S1IE1UQ" time="0.216">
+  <properties/>
+  <testcase name="logoutTest" classname="com.examle.ilcarro.qa.tests.LogoutTest" time="0.216"/>
+  <system-out><![CDATA[21:04:15 INFO  - Start test logoutTest
+Start search By.xpath: //a[contains(., 'logOut')]
+By.xpath: //a[contains(., 'logOut')] found
+Start search By.xpath: //a[contains(., 'logOut')]
+By.xpath: //a[contains(., 'logOut')] found
+21:04:15 INFO  - Stop test logoutTest
+************************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

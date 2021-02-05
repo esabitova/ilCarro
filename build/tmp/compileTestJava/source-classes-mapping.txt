@@ -1,0 +1,21 @@
+com/examle/ilcarro/qa/application/CarHelper.java
+ com.examle.ilcarro.qa.application.CarHelper
+com/examle/ilcarro/qa/tests/CarCreationTests.java
+ com.examle.ilcarro.qa.tests.CarCreationTests
+com/examle/ilcarro/qa/tests/RegistrationTest.java
+ com.examle.ilcarro.qa.tests.RegistrationTest
+com/examle/ilcarro/qa/model/User.java
+ com.examle.ilcarro.qa.model.User
+com/examle/ilcarro/qa/tests/LoginTest.java
+ com.examle.ilcarro.qa.tests.LoginTest
+com/examle/ilcarro/qa/application/HelperBase.java
+ com.examle.ilcarro.qa.application.HelperBase
+com/examle/ilcarro/qa/application/ApplicationManager.java
+ com.examle.ilcarro.qa.application.ApplicationManager
+ com.examle.ilcarro.qa.application.ApplicationManager$MyListener
+com/examle/ilcarro/qa/tests/TestBase.java
+ com.examle.ilcarro.qa.tests.TestBase
+com/examle/ilcarro/qa/application/UserHelper.java
+ com.examle.ilcarro.qa.application.UserHelper
+com/examle/ilcarro/qa/tests/LogoutTest.java
+ com.examle.ilcarro.qa.tests.LogoutTest
